@@ -2,6 +2,7 @@
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
 "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 
+<!-- 注意：该命名空间是用来映射接口的，是通过它和接口建立起关系的 -->
 <mapper namespace="com.mxd.dao.IUserDao">
 	
 	<select id="findUserByName" parameterType="User" resultType="User">
